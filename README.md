@@ -1,5 +1,7 @@
-#include <stdio.h>
-#include <string.h>
+```c
+#include<stdio.h>
+#include<string.h>
+
 char itemName[20][50];
 int itemQuantity[20];
 int count = 0;
@@ -115,7 +117,7 @@ int main()
             printf("\nInvalid choice try again\n");
             goto repeat;
         }
-    } while (choice != 5);
+    } while (choice != 5);`
 
     FILE *fptr;
     fptr = fopen("Shop.txt", "w");
